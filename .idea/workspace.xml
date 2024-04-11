@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95f94afc-5f45-4143-aed9-19dc7ff9b459" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/elements/Elements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/elements/TextBoxes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/setup/SetupProject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/elements/Elements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/elements/ElementsSetup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/elements/TextBoxes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/elements/TextBoxes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,18 +33,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;TestNG.Setup.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TextBoxes (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TextBoxes.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.Setup.executor": "Run",
+    "TestNG.TextBoxes (1).executor": "Run",
+    "TestNG.TextBoxes.executor": "Run",
+    "TestNG.TextBoxes.testTextBoxes.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true"
   }
-}</component>
-  <component name="RunManager" selected="TestNG.TextBoxes">
+}]]></component>
+  <component name="RunManager" selected="TestNG.TextBoxes.testTextBoxes">
     <configuration name="Setup" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemoQA" />
       <option name="PACKAGE_NAME" value="" />
@@ -98,8 +91,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TextBoxes.testTextBoxes" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DemoQA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="elements.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="elements" />
+      <option name="MAIN_CLASS_NAME" value="elements.TextBoxes" />
+      <option name="METHOD_NAME" value="testTextBoxes" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TextBoxes.testTextBoxes" />
         <item itemvalue="TestNG.TextBoxes" />
         <item itemvalue="TestNG.TextBoxes (1)" />
         <item itemvalue="TestNG.Setup" />
