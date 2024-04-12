@@ -35,10 +35,10 @@ public class TextBoxes {
         permanentAddress.sendKeys("same as above");
 
         WebElement submit = driver.findElement(By.id("submit"));
-        userName.click();
+        submit.click();
 
         js.executeScript("window.scrollBy(0,750)", "");
-        driver.manage().timeouts().implicitlyWait(8, TimeUnit.SECONDS);
-        driver.quit();
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        //driver.quit();
     }
 }

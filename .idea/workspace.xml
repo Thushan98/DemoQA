@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95f94afc-5f45-4143-aed9-19dc7ff9b459" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/elements/CheckBox.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/elements/Elements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/elements/ElementsSetup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/elements/TextBoxes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/elements/TextBoxes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/setup/SetupProject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/setup/SetupProject.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,27 +38,20 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.CheckBox.executor": "Run",
+    "TestNG.CheckBox.testCheckBoxes.executor": "Run",
     "TestNG.Setup.executor": "Run",
+    "TestNG.SetupProject.settingDriver.executor": "Run",
     "TestNG.TextBoxes (1).executor": "Run",
+    "TestNG.TextBoxes (2).executor": "Run",
     "TestNG.TextBoxes.executor": "Run",
     "TestNG.TextBoxes.testTextBoxes.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.TextBoxes.testTextBoxes">
-    <configuration name="Setup" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DemoQA" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Setup" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TextBoxes (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.SetupProject">
+    <configuration name="CheckBox" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemoQA" />
       <extension name="coverage">
         <pattern>
@@ -66,7 +60,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="elements" />
-      <option name="MAIN_CLASS_NAME" value="elements.TextBoxes" />
+      <option name="MAIN_CLASS_NAME" value="elements.CheckBox" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -74,7 +68,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TextBoxes" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CheckBox.testCheckBoxes" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemoQA" />
       <extension name="coverage">
         <pattern>
@@ -83,8 +77,44 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="elements" />
-      <option name="MAIN_CLASS_NAME" value="elements.TextBoxes" />
+      <option name="MAIN_CLASS_NAME" value="elements.CheckBox" />
+      <option name="METHOD_NAME" value="testCheckBoxes" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SetupProject" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DemoQA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="setup.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="setup" />
+      <option name="MAIN_CLASS_NAME" value="setup.SetupProject" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SetupProject.settingDriver" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DemoQA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="setup.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="setup" />
+      <option name="MAIN_CLASS_NAME" value="setup.SetupProject" />
+      <option name="METHOD_NAME" value="settingDriver" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -111,10 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SetupProject" />
+        <item itemvalue="TestNG.SetupProject.settingDriver" />
+        <item itemvalue="TestNG.CheckBox.testCheckBoxes" />
+        <item itemvalue="TestNG.CheckBox" />
         <item itemvalue="TestNG.TextBoxes.testTextBoxes" />
-        <item itemvalue="TestNG.TextBoxes" />
-        <item itemvalue="TestNG.TextBoxes (1)" />
-        <item itemvalue="TestNG.Setup" />
       </list>
     </recent_temporary>
   </component>
