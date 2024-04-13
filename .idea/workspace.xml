@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95f94afc-5f45-4143-aed9-19dc7ff9b459" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/elements/WebTables.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/elements/CheckBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/elements/CheckBtnRadioBtn.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,12 +47,16 @@
     "TestNG.TextBoxes (2).executor": "Run",
     "TestNG.TextBoxes.executor": "Run",
     "TestNG.TextBoxes.testTextBoxes.executor": "Run",
+    "TestNG.WebTables.addStudent (1).executor": "Run",
+    "TestNG.WebTables.addStudent.executor": "Run",
+    "TestNG.WebTables.editDetails.executor": "Run",
+    "TestNG.WebTables.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.CheckBtnRadioBtn.testRadioBtn">
-    <configuration name="CheckBtnRadioBtn" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.WebTables (1)">
+    <configuration name="WebTables (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemoQA" />
       <extension name="coverage">
         <pattern>
@@ -61,7 +65,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="elements" />
-      <option name="MAIN_CLASS_NAME" value="elements.CheckBtnRadioBtn" />
+      <option name="MAIN_CLASS_NAME" value="elements.WebTables" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -69,7 +73,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckBtnRadioBtn.testCheckBoxes" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WebTables" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemoQA" />
       <extension name="coverage">
         <pattern>
@@ -78,43 +82,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="elements" />
-      <option name="MAIN_CLASS_NAME" value="elements.CheckBtnRadioBtn" />
-      <option name="METHOD_NAME" value="testCheckBoxes" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CheckBtnRadioBtn.testRadioBtn" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DemoQA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="elements.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="elements" />
-      <option name="MAIN_CLASS_NAME" value="elements.CheckBtnRadioBtn" />
-      <option name="METHOD_NAME" value="testRadioBtn" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SetupProject" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DemoQA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="setup.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="setup" />
-      <option name="MAIN_CLASS_NAME" value="setup.SetupProject" />
+      <option name="MAIN_CLASS_NAME" value="elements.WebTables" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -122,17 +90,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SetupProject.settingDriver" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WebTables.addStudent (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemoQA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="setup.*" />
+          <option name="PATTERN" value="elements.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="setup" />
-      <option name="MAIN_CLASS_NAME" value="setup.SetupProject" />
-      <option name="METHOD_NAME" value="settingDriver" />
+      <option name="PACKAGE_NAME" value="elements" />
+      <option name="MAIN_CLASS_NAME" value="elements.WebTables" />
+      <option name="METHOD_NAME" value="addStudent" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebTables.addStudent" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DemoQA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="elements.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="elements" />
+      <option name="MAIN_CLASS_NAME" value="elements.WebTables" />
+      <option name="METHOD_NAME" value="addStudent" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebTables.editDetails" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DemoQA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="elements.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="elements" />
+      <option name="MAIN_CLASS_NAME" value="elements.WebTables" />
+      <option name="METHOD_NAME" value="editDetails" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -142,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.CheckBtnRadioBtn.testRadioBtn" />
-        <item itemvalue="TestNG.CheckBtnRadioBtn" />
-        <item itemvalue="TestNG.SetupProject" />
-        <item itemvalue="TestNG.SetupProject.settingDriver" />
-        <item itemvalue="TestNG.CheckBtnRadioBtn.testCheckBoxes" />
+        <item itemvalue="TestNG.WebTables (1)" />
+        <item itemvalue="TestNG.WebTables" />
+        <item itemvalue="TestNG.WebTables.editDetails" />
+        <item itemvalue="TestNG.WebTables.addStudent (1)" />
+        <item itemvalue="TestNG.WebTables.addStudent" />
       </list>
     </recent_temporary>
   </component>
