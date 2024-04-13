@@ -8,11 +8,12 @@ import org.testng.annotations.Test;
 import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
-public class CheckBox {
+public class CheckBtnRadioBtn {
     ElementsSetup setup = new ElementsSetup();
     WebDriver driver = setup.settingPage();
+    JavascriptExecutor js = (JavascriptExecutor) driver;
 
-    @Test
+    @Test(priority = 0)
     @Deprecated
     public void testCheckBoxes() {
         WebElement checkBoxText = driver.findElement(By.id("item-1"));
@@ -22,8 +23,7 @@ public class CheckBox {
 
         WebElement expandButton = driver.findElement(By.xpath("//button[@title='Expand all']"));
         expandButton.click();
-        System.out.println("clicked");
-        JavascriptExecutor js = (JavascriptExecutor) driver;
+
         js.executeScript("window.scrollBy(0,200)", "");
 
         //driver.manage().timeouts().implicitlyWait(12, TimeUnit.SECONDS);
@@ -42,5 +42,32 @@ public class CheckBox {
         WebElement excelCheckbox = driver.findElement(By.cssSelector("label[for='tree-node-excelFile']"));
         excelCheckbox.click();
         js.executeScript("window.scrollBy(0,750)", "");
+
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        //goto radio button page
+        driver.navigate().back();
+        //testRadioBtn();
+    }
+
+    @Test(priority = 1)
+    public void testRadioBtn() {
+        WebElement radioBtn = driver.findElement(By.id("item-2"));
+        radioBtn.click();
+
+        driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+
+        js.executeScript("window.scrollBy(0,400)", "");
+        WebElement fisrtRadio = driver.findElement(By.cssSelector("label[for='yesRadio']"));
+        fisrtRadio.click();
+
+        WebElement secondRadio = driver.findElement(By.cssSelector("label[for='impressiveRadio']"));
+        secondRadio.click();
+
+
+        WebElement thirdRadio = driver.findElement(By.cssSelector("label[for='noRadio']"));
+        if(thirdRadio.isEnabled()) {
+            System.out.println("cannot click");
+        }
+//        thirdRadio.click();
     }
 }
