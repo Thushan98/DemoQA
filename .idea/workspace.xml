@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95f94afc-5f45-4143-aed9-19dc7ff9b459" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/elements/WebTables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/elements/ButtonTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +36,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.ButtonTest.testButton.executor": "Run",
     "TestNG.CheckBox.executor": "Run",
     "TestNG.CheckBox.testCheckBoxes.executor": "Run",
     "TestNG.CheckBtnRadioBtn.executor": "Run",
@@ -47,6 +48,7 @@
     "TestNG.TextBoxes (2).executor": "Run",
     "TestNG.TextBoxes.executor": "Run",
     "TestNG.TextBoxes.testTextBoxes.executor": "Run",
+    "TestNG.WebTables (1).executor": "Run",
     "TestNG.WebTables.addStudent (1).executor": "Run",
     "TestNG.WebTables.addStudent.executor": "Run",
     "TestNG.WebTables.editDetails.executor": "Run",
@@ -55,7 +57,60 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.WebTables (1)">
+  <component name="RunManager" selected="TestNG.ButtonTest">
+    <configuration name="ButtonTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DemoQA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="elements.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="elements" />
+      <option name="MAIN_CLASS_NAME" value="elements.ButtonTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ButtonTest.testButton (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DemoQA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="elements.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="elements" />
+      <option name="MAIN_CLASS_NAME" value="elements.ButtonTest" />
+      <option name="METHOD_NAME" value="testButton" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ButtonTest.testButton" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DemoQA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="elements.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="elements" />
+      <option name="MAIN_CLASS_NAME" value="elements.ButtonTest" />
+      <option name="METHOD_NAME" value="testButton" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WebTables (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemoQA" />
       <extension name="coverage">
@@ -90,67 +145,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebTables.addStudent (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DemoQA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="elements.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="elements" />
-      <option name="MAIN_CLASS_NAME" value="elements.WebTables" />
-      <option name="METHOD_NAME" value="addStudent" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WebTables.addStudent" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DemoQA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="elements.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="elements" />
-      <option name="MAIN_CLASS_NAME" value="elements.WebTables" />
-      <option name="METHOD_NAME" value="addStudent" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WebTables.editDetails" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DemoQA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="elements.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="elements" />
-      <option name="MAIN_CLASS_NAME" value="elements.WebTables" />
-      <option name="METHOD_NAME" value="editDetails" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ButtonTest" />
+        <item itemvalue="TestNG.ButtonTest.testButton (1)" />
+        <item itemvalue="TestNG.ButtonTest.testButton" />
         <item itemvalue="TestNG.WebTables (1)" />
         <item itemvalue="TestNG.WebTables" />
-        <item itemvalue="TestNG.WebTables.editDetails" />
-        <item itemvalue="TestNG.WebTables.addStudent (1)" />
-        <item itemvalue="TestNG.WebTables.addStudent" />
       </list>
     </recent_temporary>
   </component>
