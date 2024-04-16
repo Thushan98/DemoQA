@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95f94afc-5f45-4143-aed9-19dc7ff9b459" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/elements/LinksTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/elements/DownloadUpload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/sampleFile.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +46,9 @@
     "TestNG.CheckBox.testCheckBoxes.executor": "Run",
     "TestNG.CheckBtnRadioBtn.executor": "Run",
     "TestNG.CheckBtnRadioBtn.testRadioBtn.executor": "Run",
+    "TestNG.DownloadUpload.executor": "Run",
+    "TestNG.DownloadUpload.upload.executor": "Run",
+    "TestNG.LinksTest.executor": "Run",
     "TestNG.LinksTest.testLink.executor": "Run",
     "TestNG.Setup.executor": "Run",
     "TestNG.SetupProject.executor": "Run",
@@ -62,25 +66,13 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.LinksTest">
-    <configuration name="ButtonTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DemoQA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="elements.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="elements" />
-      <option name="MAIN_CLASS_NAME" value="elements.ButtonTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ButtonTest.testButton (3)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\selenium\Repos\DemoQA\src\test\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.DownloadUpload.upload">
+    <configuration name="ButtonTest.testButton" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemoQA" />
       <extension name="coverage">
         <pattern>
@@ -98,7 +90,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ButtonTest.testButton" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DownloadUpload" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemoQA" />
       <extension name="coverage">
         <pattern>
@@ -107,8 +99,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="elements" />
-      <option name="MAIN_CLASS_NAME" value="elements.ButtonTest" />
-      <option name="METHOD_NAME" value="testButton" />
+      <option name="MAIN_CLASS_NAME" value="elements.DownloadUpload" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DownloadUpload.upload" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DemoQA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="elements.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="elements" />
+      <option name="MAIN_CLASS_NAME" value="elements.DownloadUpload" />
+      <option name="METHOD_NAME" value="upload" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -153,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DownloadUpload.upload" />
+        <item itemvalue="TestNG.DownloadUpload" />
         <item itemvalue="TestNG.LinksTest" />
         <item itemvalue="TestNG.LinksTest.testLink" />
         <item itemvalue="TestNG.ButtonTest.testButton" />
-        <item itemvalue="TestNG.ButtonTest.testButton (3)" />
-        <item itemvalue="TestNG.ButtonTest" />
       </list>
     </recent_temporary>
   </component>
