@@ -114,17 +114,20 @@ public class FormSubmission {
         WebElement stateSelect = driver.findElement(By.xpath("//div[contains(text(), \"Select State\")]"));
         scrollToElement(driver, stateSelect);
         System.out.println("state: " + stateSelect.isDisplayed());
-        stateSelect.click();
+        //stateSelect.click();
         //stateSelect.sendKeys("c");
-        stateSelect.sendKeys(Keys.DOWN);
+        //stateSelect.sendKeys(Keys.DOWN);
 //        WebElement dropdown = driver.findElement(By.className("css-2613qy-menu"));
 //        wait.until(ExpectedConditions.elementToBeClickable(dropdown));
-        stateSelect.sendKeys(Keys.ENTER);
+        //stateSelect.sendKeys(Keys.ENTER);
 
         WebElement citySelect = driver.findElement(By.id("city"));
-        citySelect.click();
-        citySelect.sendKeys(Keys.DOWN);
-        citySelect.sendKeys(Keys.ENTER);
+//        citySelect.click();
+//        citySelect.sendKeys(Keys.DOWN);
+//        citySelect.sendKeys(Keys.ENTER);
+
+        driver.findElement(By.id("submit")).click();
+
     }
 }
 
