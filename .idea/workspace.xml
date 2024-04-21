@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95f94afc-5f45-4143-aed9-19dc7ff9b459" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/elements/DownloadUpload.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/sampleFile.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/forms/FormSubmission.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +23,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -33,73 +35,61 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "TestNG.ButtonTest.executor": "Run",
-    "TestNG.ButtonTest.testButton (1).executor": "Run",
-    "TestNG.ButtonTest.testButton (2).executor": "Run",
-    "TestNG.ButtonTest.testButton (3).executor": "Run",
-    "TestNG.ButtonTest.testButton.executor": "Run",
-    "TestNG.CheckBox.executor": "Run",
-    "TestNG.CheckBox.testCheckBoxes.executor": "Run",
-    "TestNG.CheckBtnRadioBtn.executor": "Run",
-    "TestNG.CheckBtnRadioBtn.testRadioBtn.executor": "Run",
-    "TestNG.DownloadUpload.executor": "Run",
-    "TestNG.DownloadUpload.upload.executor": "Run",
-    "TestNG.LinksTest.executor": "Run",
-    "TestNG.LinksTest.testLink.executor": "Run",
-    "TestNG.Setup.executor": "Run",
-    "TestNG.SetupProject.executor": "Run",
-    "TestNG.SetupProject.settingDriver.executor": "Run",
-    "TestNG.TextBoxes (1).executor": "Run",
-    "TestNG.TextBoxes (2).executor": "Run",
-    "TestNG.TextBoxes.executor": "Run",
-    "TestNG.TextBoxes.testTextBoxes.executor": "Run",
-    "TestNG.WebTables (1).executor": "Run",
-    "TestNG.WebTables.addStudent (1).executor": "Run",
-    "TestNG.WebTables.addStudent.executor": "Run",
-    "TestNG.WebTables.editDetails.executor": "Run",
-    "TestNG.WebTables.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TestNG.ButtonTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ButtonTest.testButton (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ButtonTest.testButton (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ButtonTest.testButton (3).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ButtonTest.testButton.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CheckBox.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CheckBox.testCheckBoxes.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CheckBtnRadioBtn.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CheckBtnRadioBtn.testRadioBtn.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DownloadUpload.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DownloadUpload.upload.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.FormSubmission.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.FormSubmission.formSubmit (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.FormSubmission.formSubmit (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.FormSubmission.formSubmit (3).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.FormSubmission.formSubmit (4).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.FormSubmission.formSubmit.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LinksTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LinksTest.testLink.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Setup.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SetupProject.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SetupProject.settingDriver.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TextBoxes (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TextBoxes (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TextBoxes.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TextBoxes.testTextBoxes.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.WebTables (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.WebTables.addStudent (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.WebTables.addStudent.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.WebTables.editDetails.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.WebTables.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\selenium\Repos\DemoQA\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.DownloadUpload.upload">
-    <configuration name="ButtonTest.testButton" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.FormSubmission.formSubmit">
+    <configuration name="FormSubmission" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemoQA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="elements.*" />
+          <option name="PATTERN" value="forms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="elements" />
-      <option name="MAIN_CLASS_NAME" value="elements.ButtonTest" />
-      <option name="METHOD_NAME" value="testButton" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DownloadUpload" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DemoQA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="elements.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="elements" />
-      <option name="MAIN_CLASS_NAME" value="elements.DownloadUpload" />
+      <option name="PACKAGE_NAME" value="forms" />
+      <option name="MAIN_CLASS_NAME" value="forms.FormSubmission" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -107,17 +97,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DownloadUpload.upload" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FormSubmission.formSubmit (2)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemoQA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="elements.*" />
+          <option name="PATTERN" value="forms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="elements" />
-      <option name="MAIN_CLASS_NAME" value="elements.DownloadUpload" />
-      <option name="METHOD_NAME" value="upload" />
+      <option name="PACKAGE_NAME" value="forms" />
+      <option name="MAIN_CLASS_NAME" value="forms.FormSubmission" />
+      <option name="METHOD_NAME" value="formSubmit" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -125,34 +115,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinksTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FormSubmission.formSubmit (3)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemoQA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="elements.*" />
+          <option name="PATTERN" value="forms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="elements" />
-      <option name="MAIN_CLASS_NAME" value="elements.LinksTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="forms" />
+      <option name="MAIN_CLASS_NAME" value="forms.FormSubmission" />
+      <option name="METHOD_NAME" value="formSubmit" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinksTest.testLink" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FormSubmission.formSubmit (4)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemoQA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="elements.*" />
+          <option name="PATTERN" value="forms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="elements" />
-      <option name="MAIN_CLASS_NAME" value="elements.LinksTest" />
-      <option name="METHOD_NAME" value="testLink" />
+      <option name="PACKAGE_NAME" value="forms" />
+      <option name="MAIN_CLASS_NAME" value="forms.FormSubmission" />
+      <option name="METHOD_NAME" value="formSubmit" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FormSubmission.formSubmit" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DemoQA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="forms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="forms" />
+      <option name="MAIN_CLASS_NAME" value="forms.FormSubmission" />
+      <option name="METHOD_NAME" value="formSubmit" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -162,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.DownloadUpload.upload" />
-        <item itemvalue="TestNG.DownloadUpload" />
-        <item itemvalue="TestNG.LinksTest" />
-        <item itemvalue="TestNG.LinksTest.testLink" />
-        <item itemvalue="TestNG.ButtonTest.testButton" />
+        <item itemvalue="TestNG.FormSubmission.formSubmit" />
+        <item itemvalue="TestNG.FormSubmission.formSubmit (4)" />
+        <item itemvalue="TestNG.FormSubmission.formSubmit (3)" />
+        <item itemvalue="TestNG.FormSubmission.formSubmit (2)" />
+        <item itemvalue="TestNG.FormSubmission" />
       </list>
     </recent_temporary>
   </component>
