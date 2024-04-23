@@ -8,7 +8,7 @@ public class SetupProject {
     WebDriver driver;
     @BeforeTest
     public WebDriver settingDriver() {
-        System.setProperty("webdriver.chrome.driver", "E:\\selenium\\chromedriver-win64\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "E:\\\\selenium\\\\chromedriver-win64\\\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://demoqa.com/");
