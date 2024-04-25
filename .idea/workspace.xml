@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95f94afc-5f45-4143-aed9-19dc7ff9b459" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/alerts/AlertSetup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/alerts/Windows.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/setup/SetupProject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/setup/SetupProject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/alerts/Windows.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/alerts/Windows.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +71,9 @@
     "TestNG.WebTables.addStudent.executor": "Run",
     "TestNG.WebTables.editDetails.executor": "Run",
     "TestNG.WebTables.executor": "Run",
+    "TestNG.Windows.testNewTab.executor": "Run",
+    "TestNG.Windows.testNewWindow.executor": "Run",
+    "TestNG.Windows.testNewWindowMessage.executor": "Run",
     "TestNG.Windows.windowsTest (1).executor": "Run",
     "TestNG.Windows.windowsTest.executor": "Run",
     "git-widget-placeholder": "master",
@@ -85,8 +86,8 @@
       <recent name="E:\selenium\Repos\DemoQA\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Windows.windowsTest">
-    <configuration name="AlertSetup" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Windows.testNewWindowMessage">
+    <configuration name="Windows.testNewTab" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemoQA" />
       <extension name="coverage">
         <pattern>
@@ -95,25 +96,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="alerts" />
-      <option name="MAIN_CLASS_NAME" value="alerts.AlertSetup" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ButtonTest.testButton" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DemoQA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="elements.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="elements" />
-      <option name="MAIN_CLASS_NAME" value="elements.ButtonTest" />
-      <option name="METHOD_NAME" value="testButton" />
+      <option name="MAIN_CLASS_NAME" value="alerts.Windows" />
+      <option name="METHOD_NAME" value="testNewTab" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -121,17 +105,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FormSubmission.formSubmit" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Windows.testNewWindow" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemoQA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="forms.*" />
+          <option name="PATTERN" value="alerts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="forms" />
-      <option name="MAIN_CLASS_NAME" value="forms.FormSubmission" />
-      <option name="METHOD_NAME" value="formSubmit" />
+      <option name="PACKAGE_NAME" value="alerts" />
+      <option name="MAIN_CLASS_NAME" value="alerts.Windows" />
+      <option name="METHOD_NAME" value="testNewWindow" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Windows.testNewWindowMessage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DemoQA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="alerts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="alerts" />
+      <option name="MAIN_CLASS_NAME" value="alerts.Windows" />
+      <option name="METHOD_NAME" value="testNewWindowMessage" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -177,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Windows.testNewWindowMessage" />
+        <item itemvalue="TestNG.Windows.testNewWindow" />
+        <item itemvalue="TestNG.Windows.testNewTab" />
         <item itemvalue="TestNG.Windows.windowsTest" />
         <item itemvalue="TestNG.Windows.windowsTest (1)" />
-        <item itemvalue="TestNG.ButtonTest.testButton" />
-        <item itemvalue="TestNG.AlertSetup" />
-        <item itemvalue="TestNG.FormSubmission.formSubmit" />
       </list>
     </recent_temporary>
   </component>
