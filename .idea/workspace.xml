@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95f94afc-5f45-4143-aed9-19dc7ff9b459" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/alerts/AlertBoxes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/alerts/Frames.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/alerts/ModalTesting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +42,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "TestNG.AlertBoxes.testAlerts1.executor": "Run",
     "TestNG.AlertBoxes.testAlerts2.executor": "Run",
+    "TestNG.AlertBoxes.testAlerts3.executor": "Run",
     "TestNG.AlertSetup.executor": "Run",
+    "TestNG.AlertSetup.settingAlertPage.executor": "Run",
     "TestNG.ButtonTest.executor": "Run",
     "TestNG.ButtonTest.testButton (1).executor": "Run",
     "TestNG.ButtonTest.testButton (2).executor": "Run",
@@ -59,8 +62,11 @@
     "TestNG.FormSubmission.formSubmit (3).executor": "Run",
     "TestNG.FormSubmission.formSubmit (4).executor": "Run",
     "TestNG.FormSubmission.formSubmit.executor": "Run",
+    "TestNG.Frames.testNewTab (1).executor": "Run",
+    "TestNG.Frames.testNewTab.executor": "Run",
     "TestNG.LinksTest.executor": "Run",
     "TestNG.LinksTest.testLink.executor": "Run",
+    "TestNG.ModalTesting.testModal.executor": "Run",
     "TestNG.Setup.executor": "Run",
     "TestNG.SetupProject.executor": "Run",
     "TestNG.SetupProject.settingDriver.executor": "Run",
@@ -88,43 +94,7 @@
       <recent name="E:\selenium\Repos\DemoQA\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AlertBoxes.testAlerts3">
-    <configuration name="AlertBoxes.testAlerts1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DemoQA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="alerts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="alerts" />
-      <option name="MAIN_CLASS_NAME" value="alerts.AlertBoxes" />
-      <option name="METHOD_NAME" value="testAlerts1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AlertBoxes.testAlerts2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DemoQA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="alerts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="alerts" />
-      <option name="MAIN_CLASS_NAME" value="alerts.AlertBoxes" />
-      <option name="METHOD_NAME" value="testAlerts2" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.ModalTesting.testModal">
     <configuration name="AlertBoxes.testAlerts3" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemoQA" />
       <extension name="coverage">
@@ -143,7 +113,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Windows.testNewWindow" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AlertSetup.settingAlertPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemoQA" />
       <extension name="coverage">
         <pattern>
@@ -152,8 +122,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="alerts" />
-      <option name="MAIN_CLASS_NAME" value="alerts.Windows" />
-      <option name="METHOD_NAME" value="testNewWindow" />
+      <option name="MAIN_CLASS_NAME" value="alerts.AlertSetup" />
+      <option name="METHOD_NAME" value="settingAlertPage" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -161,7 +131,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Windows.testNewWindowMessage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Frames.testNewTab" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemoQA" />
       <extension name="coverage">
         <pattern>
@@ -170,8 +140,44 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="alerts" />
-      <option name="MAIN_CLASS_NAME" value="alerts.Windows" />
-      <option name="METHOD_NAME" value="testNewWindowMessage" />
+      <option name="MAIN_CLASS_NAME" value="alerts.Frames" />
+      <option name="METHOD_NAME" value="testNewTab" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Frames.testNewTab" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DemoQA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="alerts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="alerts" />
+      <option name="MAIN_CLASS_NAME" value="alerts.Frames" />
+      <option name="METHOD_NAME" value="testNewTab" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ModalTesting.testModal" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DemoQA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="alerts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="alerts" />
+      <option name="MAIN_CLASS_NAME" value="alerts.ModalTesting" />
+      <option name="METHOD_NAME" value="testModal" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -181,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ModalTesting.testModal" />
+        <item itemvalue="TestNG.Frames.testNewTab" />
+        <item itemvalue="TestNG.Frames.testNewTab (1)" />
+        <item itemvalue="TestNG.AlertSetup.settingAlertPage" />
         <item itemvalue="TestNG.AlertBoxes.testAlerts3" />
-        <item itemvalue="TestNG.AlertBoxes.testAlerts2" />
-        <item itemvalue="TestNG.AlertBoxes.testAlerts1" />
-        <item itemvalue="TestNG.Windows.testNewWindowMessage" />
-        <item itemvalue="TestNG.Windows.testNewWindow" />
       </list>
     </recent_temporary>
   </component>
