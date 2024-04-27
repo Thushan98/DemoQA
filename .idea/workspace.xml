@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95f94afc-5f45-4143-aed9-19dc7ff9b459" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/alerts/Frames.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/alerts/ModalTesting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/widgets/AccordianWidgetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/widgets/AutoComplete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/widgets/DatePicker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/widgets/WidgetsSetup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,11 +42,13 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.AccordianWidgetTest.accordianTest.executor": "Run",
     "TestNG.AlertBoxes.testAlerts1.executor": "Run",
     "TestNG.AlertBoxes.testAlerts2.executor": "Run",
     "TestNG.AlertBoxes.testAlerts3.executor": "Run",
     "TestNG.AlertSetup.executor": "Run",
     "TestNG.AlertSetup.settingAlertPage.executor": "Run",
+    "TestNG.AutoComplete.autoCompleteTest.executor": "Run",
     "TestNG.ButtonTest.executor": "Run",
     "TestNG.ButtonTest.testButton (1).executor": "Run",
     "TestNG.ButtonTest.testButton (2).executor": "Run",
@@ -54,6 +58,8 @@
     "TestNG.CheckBox.testCheckBoxes.executor": "Run",
     "TestNG.CheckBtnRadioBtn.executor": "Run",
     "TestNG.CheckBtnRadioBtn.testRadioBtn.executor": "Run",
+    "TestNG.DatePicker.autoCompleteTest.executor": "Run",
+    "TestNG.DatePicker.timeTest.executor": "Run",
     "TestNG.DownloadUpload.executor": "Run",
     "TestNG.DownloadUpload.upload.executor": "Run",
     "TestNG.FormSubmission.executor": "Run",
@@ -94,18 +100,18 @@
       <recent name="E:\selenium\Repos\DemoQA\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ModalTesting.testModal">
-    <configuration name="AlertBoxes.testAlerts3" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.DatePicker.timeTest">
+    <configuration name="AccordianWidgetTest.accordianTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemoQA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="alerts.*" />
+          <option name="PATTERN" value="widgets.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="alerts" />
-      <option name="MAIN_CLASS_NAME" value="alerts.AlertBoxes" />
-      <option name="METHOD_NAME" value="testAlerts3" />
+      <option name="PACKAGE_NAME" value="widgets" />
+      <option name="MAIN_CLASS_NAME" value="widgets.AccordianWidgetTest" />
+      <option name="METHOD_NAME" value="accordianTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -113,17 +119,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AlertSetup.settingAlertPage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AutoComplete.autoCompleteTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemoQA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="alerts.*" />
+          <option name="PATTERN" value="widgets.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="alerts" />
-      <option name="MAIN_CLASS_NAME" value="alerts.AlertSetup" />
-      <option name="METHOD_NAME" value="settingAlertPage" />
+      <option name="PACKAGE_NAME" value="widgets" />
+      <option name="MAIN_CLASS_NAME" value="widgets.AutoComplete" />
+      <option name="METHOD_NAME" value="autoCompleteTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -131,17 +137,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Frames.testNewTab" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DatePicker.autoCompleteTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemoQA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="alerts.*" />
+          <option name="PATTERN" value="widgets.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="alerts" />
-      <option name="MAIN_CLASS_NAME" value="alerts.Frames" />
-      <option name="METHOD_NAME" value="testNewTab" />
+      <option name="PACKAGE_NAME" value="widgets" />
+      <option name="MAIN_CLASS_NAME" value="widgets.DatePicker" />
+      <option name="METHOD_NAME" value="autoCompleteTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -149,17 +155,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Frames.testNewTab" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DatePicker.timeTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemoQA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="alerts.*" />
+          <option name="PATTERN" value="widgets.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="alerts" />
-      <option name="MAIN_CLASS_NAME" value="alerts.Frames" />
-      <option name="METHOD_NAME" value="testNewTab" />
+      <option name="PACKAGE_NAME" value="widgets" />
+      <option name="MAIN_CLASS_NAME" value="widgets.DatePicker" />
+      <option name="METHOD_NAME" value="timeTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -187,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DatePicker.timeTest" />
+        <item itemvalue="TestNG.DatePicker.autoCompleteTest" />
+        <item itemvalue="TestNG.AutoComplete.autoCompleteTest" />
+        <item itemvalue="TestNG.AccordianWidgetTest.accordianTest" />
         <item itemvalue="TestNG.ModalTesting.testModal" />
-        <item itemvalue="TestNG.Frames.testNewTab" />
-        <item itemvalue="TestNG.Frames.testNewTab (1)" />
-        <item itemvalue="TestNG.AlertSetup.settingAlertPage" />
-        <item itemvalue="TestNG.AlertBoxes.testAlerts3" />
       </list>
     </recent_temporary>
   </component>
