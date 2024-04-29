@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95f94afc-5f45-4143-aed9-19dc7ff9b459" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/widgets/Slider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/interactions/InteractionSetup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/interactions/Sortable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,6 +68,7 @@
     "TestNG.FormSubmission.formSubmit.executor": "Run",
     "TestNG.Frames.testNewTab (1).executor": "Run",
     "TestNG.Frames.testNewTab.executor": "Run",
+    "TestNG.InteractionSetup.settingWidgetsPage.executor": "Run",
     "TestNG.LinksTest.executor": "Run",
     "TestNG.LinksTest.testLink.executor": "Run",
     "TestNG.ModalTesting.testModal.executor": "Run",
@@ -76,6 +78,8 @@
     "TestNG.Slider.dateTest.executor": "Run",
     "TestNG.Slider.sliderTest.executor": "Run",
     "TestNG.Slider.testSliderInput.executor": "Run",
+    "TestNG.Sortable.autoCompleteTest.executor": "Run",
+    "TestNG.Sortable.sortTest.executor": "Run",
     "TestNG.TextBoxes (1).executor": "Run",
     "TestNG.TextBoxes (2).executor": "Run",
     "TestNG.TextBoxes.executor": "Run",
@@ -100,54 +104,18 @@
       <recent name="E:\selenium\Repos\DemoQA\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Slider.testSliderInput">
-    <configuration name="DatePicker.autoCompleteTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Sortable.sortTest">
+    <configuration name="InteractionSetup.settingWidgetsPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemoQA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="widgets.*" />
+          <option name="PATTERN" value="interactions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="widgets" />
-      <option name="MAIN_CLASS_NAME" value="widgets.DatePicker" />
-      <option name="METHOD_NAME" value="autoCompleteTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DatePicker.timeTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DemoQA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="widgets.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="widgets" />
-      <option name="MAIN_CLASS_NAME" value="widgets.DatePicker" />
-      <option name="METHOD_NAME" value="timeTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Slider.dateTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DemoQA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="widgets.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="widgets" />
-      <option name="MAIN_CLASS_NAME" value="widgets.Slider" />
-      <option name="METHOD_NAME" value="dateTest" />
+      <option name="PACKAGE_NAME" value="interactions" />
+      <option name="MAIN_CLASS_NAME" value="interactions.InteractionSetup" />
+      <option name="METHOD_NAME" value="settingWidgetsPage" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -191,13 +159,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Sortable.autoCompleteTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DemoQA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interactions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="interactions" />
+      <option name="MAIN_CLASS_NAME" value="interactions.Sortable" />
+      <option name="METHOD_NAME" value="autoCompleteTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sortable.sortTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DemoQA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interactions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="interactions" />
+      <option name="MAIN_CLASS_NAME" value="interactions.Sortable" />
+      <option name="METHOD_NAME" value="sortTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Sortable.sortTest" />
+        <item itemvalue="TestNG.Sortable.autoCompleteTest" />
+        <item itemvalue="TestNG.InteractionSetup.settingWidgetsPage" />
         <item itemvalue="TestNG.Slider.testSliderInput" />
         <item itemvalue="TestNG.Slider.sliderTest" />
-        <item itemvalue="TestNG.Slider.dateTest" />
-        <item itemvalue="TestNG.DatePicker.timeTest" />
-        <item itemvalue="TestNG.DatePicker.autoCompleteTest" />
       </list>
     </recent_temporary>
   </component>
