@@ -5,13 +5,10 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import java.util.List;
-
-public class Sortable {
+public class Resizable {
     InteractionSetup setup;
     WebDriver driver;
     Actions act;
@@ -23,21 +20,13 @@ public class Sortable {
         driver = setup.settingInteractionsPage();
         act = new Actions(driver);
         js = (JavascriptExecutor) driver;
-        driver.findElement(By.xpath("//span[text()='Sortable']")).click();
+        driver.findElement(By.xpath("//span[text()='Resizable']")).click();
         js.executeScript("window.scrollBy(0,350)", "");
     }
 
     @Test
     public void sortTest() {
-        List<WebElement> list = driver.findElements(By.xpath("//* [@id='demo-tabpane-list']/div/div"));
-
-        for (int i = 1; i <= list.size(); i++) {
-
-            WebElement element = driver.findElement(By.xpath("//*[@id='demo-tabpane-list']/div/div"));
-
-            WebElement destination = driver.findElement(By.xpath("//*[@id='demo-tabpane-list']/div/div[" + (6 - i + 1) + "]"));
-
-            act.dragAndDrop(element, destination).perform();
-        }
+        WebElement resizer = driver.findElement(By.xpath("//*[@id='resizableBoxWithRestriction']/span"));
+        act.clickAndHold(resizer).moveByOffset(500, 300).release().build().perform();
     }
 }
