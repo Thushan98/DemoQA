@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95f94afc-5f45-4143-aed9-19dc7ff9b459" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/interactions/Dropable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/book_store_application/AppSetup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/book_store_application/LoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,6 +72,9 @@
     "TestNG.InteractionSetup.settingWidgetsPage.executor": "Run",
     "TestNG.LinksTest.executor": "Run",
     "TestNG.LinksTest.testLink.executor": "Run",
+    "TestNG.LoginTest.executor": "Run",
+    "TestNG.LoginTest.loginTest.executor": "Run",
+    "TestNG.LoginTest.newUserCreateTest.executor": "Run",
     "TestNG.ModalTesting.testModal.executor": "Run",
     "TestNG.Resizable.sortTest.executor": "Run",
     "TestNG.Setup.executor": "Run",
@@ -105,7 +109,7 @@
       <recent name="E:\selenium\Repos\DemoQA\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Dropable.droppableTesting">
+  <component name="RunManager" selected="TestNG.LoginTest">
     <configuration name="Dropable.droppableTesting" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemoQA" />
       <extension name="coverage">
@@ -124,17 +128,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InteractionSetup.settingWidgetsPage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemoQA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interactions.*" />
+          <option name="PATTERN" value="book_store_application.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="interactions" />
-      <option name="MAIN_CLASS_NAME" value="interactions.InteractionSetup" />
-      <option name="METHOD_NAME" value="settingWidgetsPage" />
+      <option name="PACKAGE_NAME" value="book_store_application" />
+      <option name="MAIN_CLASS_NAME" value="book_store_application.LoginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DemoQA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="book_store_application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="book_store_application" />
+      <option name="MAIN_CLASS_NAME" value="book_store_application.LoginTest" />
+      <option name="METHOD_NAME" value="loginTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.newUserCreateTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DemoQA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="book_store_application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="book_store_application" />
+      <option name="MAIN_CLASS_NAME" value="book_store_application.LoginTest" />
+      <option name="METHOD_NAME" value="newUserCreateTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -160,49 +199,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sortable.autoCompleteTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DemoQA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interactions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="interactions" />
-      <option name="MAIN_CLASS_NAME" value="interactions.Sortable" />
-      <option name="METHOD_NAME" value="autoCompleteTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Sortable.sortTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DemoQA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interactions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="interactions" />
-      <option name="MAIN_CLASS_NAME" value="interactions.Sortable" />
-      <option name="METHOD_NAME" value="sortTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoginTest" />
+        <item itemvalue="TestNG.LoginTest.newUserCreateTest" />
+        <item itemvalue="TestNG.LoginTest.loginTest" />
         <item itemvalue="TestNG.Dropable.droppableTesting" />
         <item itemvalue="TestNG.Resizable.sortTest" />
-        <item itemvalue="TestNG.Sortable.sortTest" />
-        <item itemvalue="TestNG.Sortable.autoCompleteTest" />
-        <item itemvalue="TestNG.InteractionSetup.settingWidgetsPage" />
       </list>
     </recent_temporary>
   </component>
